@@ -42,6 +42,11 @@ class HomeTableTableViewController: UITableViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.loadTweet()
+    }
+    
     @objc func loadTweet(){
         
         numberOfTweets = 20
@@ -111,6 +116,9 @@ class HomeTableTableViewController: UITableViewController {
             cell.ProfilePic.image = UIImage(data: imageData)
         }
         
+        cell.setFavorite(tweetArray[indexPath.row]["favorited"] as! Bool)
+        cell.tweetId = tweetArray[indexPath.row]["id"] as! Int
+        cell.setRetweeted(tweetArray[indexPath.row]["retweeted"] as! Bool)
         return cell
     }
    
