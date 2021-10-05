@@ -22,9 +22,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Retweet_etc](https://user-images.githubusercontent.com/76667866/135789941-584df4c4-ab00-4437-9887-9d1dc9a650ea.gif)
-
-
+![TwitterPart2](https://user-images.githubusercontent.com/76667866/135970431-cba0f506-e5a5-449a-8fdb-976c00bd4688.gif)
 
 
 # Project 3 - PeKer
